@@ -15,7 +15,10 @@ using namespace std;
 //Lab4--Roshan"
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    cout << "Hello, World!\n";
+    string sentence;
+    
+    cout << "Please enter the sentence"<< endl;
+    getline(cin,sentence);
+    cout << sentence;
     return 0;
 }
